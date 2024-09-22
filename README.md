@@ -53,7 +53,15 @@
 
 いずれにしても、プリンターの寸法パラメーターが正しいことを確認してください。
 
-# ファームウェアの書き込み
+# ファームウェア
+
+## ファームウェアの開発環境
+
+開発環境には以下を使用します。
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Platform IO](https://platformio.org/)
+
+## ファームウェアの書き込み
 
 ファームウェアをフラッシュするための手順を説明したPDFファイルがあります。
 [HowToFlashing](HowToFlashing.pdf)
@@ -86,7 +94,7 @@ ORBION プロジェクトにいたく感動を受けましたよね？
 - Rhino
 - FreeCAD
 
-# ハードウェアの構成
+# ハードウェアの部品構成
 
 コンポーネント:
 - M3x15 (3pcs)
