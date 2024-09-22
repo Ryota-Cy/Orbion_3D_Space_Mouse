@@ -67,7 +67,7 @@
 
 # コーヒーを買ってあげてください。
 
-ORBION プロジェクトにいたく感動を受けた方ましたよね？
+ORBION プロジェクトにいたく感動を受けましたよね？
 なんと今なら以下から作者にコーヒーを買ってあげることができます。
 [PayPal](https://www.paypal.me/MattiaRusso308?locale.x=it_IT)
 
@@ -88,7 +88,7 @@ ORBION プロジェクトにいたく感動を受けた方ましたよね？
 
 # ハードウェアの構成
 
-Componets:
+コンポーネント:
 - M3x15 (3pcs)
 - M3x6 or M3x8 (5pcs)
 - M3x10 (4pcs)
@@ -132,4 +132,4 @@ Under the following terms:
 - NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 
 ### 他にも共有したいMODがあれば・・・
-### [Discord](https://discord.gg/tgut7grRTV)チャンネルにログインし、作者に連絡して「Yours_Creations」に追加をお願いしてください。
+[Discord](https://discord.gg/tgut7grRTV)チャンネルにログインし、作者に連絡して「Yours_Creations」に追加をお願いしてください。
