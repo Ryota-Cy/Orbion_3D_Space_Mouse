@@ -1,7 +1,6 @@
 #include "Joystick.h"
-#include <Arduino.h>
 
-void initJoystick(Joystick &joystick, int xPin, int yPin, int deadZone) {
+void initJoystick(Joystick &joystick, int xPin, int yPin, int buttonPin, int deadZone) {
     joystick.xPin = xPin;
     joystick.yPin = yPin;
     joystick.rawXValue = 0;
@@ -9,6 +8,8 @@ void initJoystick(Joystick &joystick, int xPin, int yPin, int deadZone) {
     joystick.xValue = 0;
     joystick.yValue = 0;
     joystick.deadZone = deadZone;
+    initButton(joystick.button, buttonPin); 
+
     pinMode(xPin, INPUT);
     pinMode(yPin, INPUT);
 }
@@ -16,6 +17,7 @@ void initJoystick(Joystick &joystick, int xPin, int yPin, int deadZone) {
 void updateJoystick(Joystick &joystick) {
     joystick.rawXValue = analogRead(joystick.xPin);
     joystick.rawYValue = analogRead(joystick.yPin);
+    updateButton(joystick.button);
     
     if (abs(joystick.rawXValue - 512) < joystick.deadZone) {
         joystick.xValue = 0;

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "__node_handle": "cpp",
+        "array": "cpp",
+        "memory": "cpp",
+        "istream": "cpp",
+        "locale": "cpp",
+        "tuple": "cpp",
+        "variant": "cpp",
+        "ostream": "cpp",
+        "print": "cpp"
+    }
+}

@@ -4,7 +4,7 @@ void initInputDevices(InputState &input) {
     initButton(input.button1, 7); 
     initButton(input.button2, 8); 
     initButton(input.button3, 9); 
-    initJoystick(input.joystick, A2, A3);  // Joystick connected to analog pins A2 and A3
+    initJoystick(input.joystick, A2, A3, A1);  // Joystick connected to analog pins A2 and A3, Push button is A1
     initEncoder(input.encoder, 5, 4);      // Encoder connected to digital pins 5 and 4
 }
 

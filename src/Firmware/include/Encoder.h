@@ -1,6 +1,8 @@
 #ifndef ENCODER_H
 #define ENCODER_H
 
+#include <Arduino.h>
+
 struct Encoder {
     int pinA;
     int pinB;
