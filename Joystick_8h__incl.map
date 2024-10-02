@@ -1,0 +1,5 @@
+<map id="src/Firmware/include/Joystick.h" name="src/Firmware/include/Joystick.h">
+<area shape="rect" id="node1" title="ジョイスティックの操作と状態管理を行う機能を提供します。" alt="" coords="5,5,163,45"/>
+<area shape="rect" id="node2" title=" " alt="" coords="42,167,126,192"/>
+<area shape="rect" id="node3" href="$Button_8h.html" title="ボタンに関する制御を提供します。" alt="" coords="84,93,161,119"/>
+</map>

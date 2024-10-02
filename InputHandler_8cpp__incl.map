@@ -1,0 +1,8 @@
+<map id="src/Firmware/src/InputHandler.cpp" name="src/Firmware/src/InputHandler.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,248,31"/>
+<area shape="rect" id="node2" href="$InputHandler_8h.html" title="入力デバイスの初期化および更新に関する機能を提供します。" alt="" coords="68,79,185,104"/>
+<area shape="rect" id="node3" href="$Button_8h.html" title="ボタンに関する制御を提供します。" alt="" coords="12,225,89,251"/>
+<area shape="rect" id="node5" href="$Joystick_8h.html" title="ジョイスティックの操作と状態管理を行う機能を提供します。" alt="" coords="84,152,169,177"/>
+<area shape="rect" id="node6" href="$Encoder_8h.html" title="ロータリーエンコーダーの制御を提供します。" alt="" coords="164,225,249,251"/>
+<area shape="rect" id="node4" title=" " alt="" coords="85,299,169,324"/>
+</map>

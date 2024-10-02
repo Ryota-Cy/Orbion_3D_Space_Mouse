@@ -1,0 +1,6 @@
+<map id="InputState" name="InputState">
+<area shape="rect" id="node1" title="各種入力デバイスの状態を保持する構造体です。" alt="" coords="88,200,177,225"/>
+<area shape="rect" id="node2" href="$structButton.html" title="Buttonに関係するデータの構造体です。" alt="" coords="5,5,71,31"/>
+<area shape="rect" id="node3" href="$structJoystick.html" title="ジョイスティックの状態を管理する構造体です。" alt="" coords="96,103,169,128"/>
+<area shape="rect" id="node4" href="$structEncoder.html" title="ロータリーエンコーダーの状態を管理する構造体" alt="" coords="194,103,269,128"/>
+</map>

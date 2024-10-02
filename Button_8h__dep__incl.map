@@ -1,0 +1,14 @@
+<map id="src/Firmware/include/Button.h" name="src/Firmware/include/Button.h">
+<area shape="rect" id="node1" title="ボタンに関する制御を提供します。" alt="" coords="615,5,772,45"/>
+<area shape="rect" id="node2" href="$InputHandler_8h.html" title="入力デバイスの初期化および更新に関する機能を提供します。" alt="" coords="348,181,505,221"/>
+<area shape="rect" id="node9" href="$Joystick_8h.html" title="ジョイスティックの操作と状態管理を行う機能を提供します。" alt="" coords="557,93,715,133"/>
+<area shape="rect" id="node11" href="$test__main_8cpp.html" title=" " alt="" coords="766,181,930,221"/>
+<area shape="rect" id="node12" href="$Button_8cpp.html" title=" " alt="" coords="789,101,992,126"/>
+<area shape="rect" id="node3" href="$HIDInterface_8h.html" title="HIDデバイスへのメッセージ送信機能を提供するインターフェースです。" alt="" coords="175,269,332,309"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title=" " alt="" coords="273,357,466,383"/>
+<area shape="rect" id="node6" href="$Menu_8h.html" title="メニュー表示と操作に関する機能を提供します。" alt="" coords="407,269,564,309"/>
+<area shape="rect" id="node8" href="$InputHandler_8cpp.html" title=" " alt="" coords="588,277,831,302"/>
+<area shape="rect" id="node4" href="$HIDInterface_8cpp.html" title=" " alt="" coords="5,357,248,383"/>
+<area shape="rect" id="node7" href="$Menu_8cpp.html" title=" " alt="" coords="490,357,686,383"/>
+<area shape="rect" id="node10" href="$JoyStick_8cpp.html" title=" " alt="" coords="530,189,742,214"/>
+</map>

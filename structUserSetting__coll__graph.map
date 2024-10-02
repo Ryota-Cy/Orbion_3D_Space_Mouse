@@ -1,0 +1,4 @@
+<map id="UserSetting" name="UserSetting">
+<area shape="rect" id="node1" title="ユーザー設定を保持する構造体です。" alt="" coords="5,93,104,119"/>
+<area shape="rect" id="node2" href="$structRGBColor.html" title="RGBカラーの値を保持する構造体です。" alt="" coords="13,5,97,31"/>
+</map>
