@@ -191,7 +191,7 @@ MenuItem& operator ++ (MenuItem& menuItem)
     return menuItem;
 }
 
-MenuItem& operator ++ (MenuItem& menuItem, int)
+MenuItem operator ++ (MenuItem& menuItem, int)
 {
     MenuItem prev = menuItem;
     ++menuItem;
@@ -204,7 +204,7 @@ MenuItem& operator -- (MenuItem& menuItem)
     return menuItem;
 }
 
-MenuItem& operator -- (MenuItem& menuItem, int)
+MenuItem operator -- (MenuItem& menuItem, int)
 {
     MenuItem prev = menuItem;
     --menuItem;
