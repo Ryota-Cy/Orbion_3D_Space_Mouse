@@ -18,12 +18,11 @@
  */
 #define USERSETTING_MEMORY_INDEX 0
 
-
 /**
  * @brief CADモードを列挙する列挙型です。
  * @details さまざまなCADソフトウェアのモードを定義しています。
  */
-enum CADMode
+enum CADMode: int
 {
     MouseMode,
     Autodesk,
