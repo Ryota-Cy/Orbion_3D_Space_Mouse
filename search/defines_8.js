@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reswireclock_0',['RESWIRECLOCK',['../Adafruit__SSD1306_8cpp.html#a8a12267a30c5420902b4e9356f8a1e05',1,'Adafruit_SSD1306.cpp']]]
+  ['pgm_5fread_5fbyte_0',['pgm_read_byte',['../Adafruit__SSD1306_8cpp.html#a48c60b057902adf805797f183286728d',1,'Adafruit_SSD1306.cpp']]]
 ];

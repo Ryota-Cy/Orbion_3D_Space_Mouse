@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['updatebutton_0',['updateButton',['../Button_8h.html#acf9a76a4f1b26c9f0b28d70ab008b910',1,'updateButton(Button &amp;button):&#160;Button.cpp'],['../Button_8cpp.html#acf9a76a4f1b26c9f0b28d70ab008b910',1,'updateButton(Button &amp;button):&#160;Button.cpp']]],
-  ['updateencoder_1',['updateEncoder',['../Encoder_8h.html#ac1c56d754192d08d84a71ff00c2e21b4',1,'updateEncoder(Encoder &amp;encoder):&#160;Encoder.cpp'],['../Encoder_8cpp.html#ac1c56d754192d08d84a71ff00c2e21b4',1,'updateEncoder(Encoder &amp;encoder):&#160;Encoder.cpp']]],
-  ['updateinputdevices_2',['updateInputDevices',['../InputHandler_8h.html#af750513b0f4892a61228facea5aac1f6',1,'updateInputDevices(InputState &amp;input):&#160;InputHandler.cpp'],['../InputHandler_8cpp.html#af750513b0f4892a61228facea5aac1f6',1,'updateInputDevices(InputState &amp;input):&#160;InputHandler.cpp']]],
-  ['updatejoystick_3',['updateJoystick',['../Joystick_8h.html#a5ecd1c1547e676f8a61a9369a3dad74f',1,'updateJoystick(Joystick &amp;joystick):&#160;JoyStick.cpp'],['../JoyStick_8cpp.html#a5ecd1c1547e676f8a61a9369a3dad74f',1,'updateJoystick(Joystick &amp;joystick):&#160;JoyStick.cpp']]],
-  ['updatelength_4',['updateLength',['../classAdafruit__NeoPixel.html#a74e917093c2eb16848c4a09427680f79',1,'Adafruit_NeoPixel']]],
-  ['updatetype_5',['updateType',['../classAdafruit__NeoPixel.html#a07b6949674125159484e9e02ef025f7d',1,'Adafruit_NeoPixel']]]
+  ['rainbow_0',['rainbow',['../classAdafruit__NeoPixel.html#a914f61b78e4d36a03c91372ceded2d46',1,'Adafruit_NeoPixel']]],
+  ['read_1',['read',['../classBLESerial.html#a4f37570c173dc1662b7e9eb4cc222a81',1,'BLESerial::read(void)'],['../classBLESerial.html#a45c27e5257c9590b1090fe97172bb0c8',1,'BLESerial::read(void)'],['../structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90',1,'read(int, char *, size_t):&#160;structcmd.h']]],
+  ['readusersetting_2',['readUserSetting',['../UserSetting_8h.html#a803bc02241f36a5b08e3d2582d6b1aeb',1,'readUserSetting():&#160;UserSetting.cpp'],['../UserSetting_8cpp.html#a803bc02241f36a5b08e3d2582d6b1aeb',1,'readUserSetting():&#160;UserSetting.cpp']]]
 ];

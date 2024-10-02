@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['neopixeltype_0',['neoPixelType',['../Adafruit__NeoPixel_8h.html#ab88a50d51bb5488df4379ff49c81fd72',1,'Adafruit_NeoPixel.h']]]
+  ['b_0',['B',['../autolink_8cpp.html#a7ddc550b157ed6f8db58e462b504ab0f',1,'autolink.cpp']]]
 ];

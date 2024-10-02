@@ -8,6 +8,13 @@ var searchData=
   ['getpixel_5',['getPixel',['../classAdafruit__SSD1306.html#a861504191b6bd2f294aa0763833d903b',1,'Adafruit_SSD1306']]],
   ['getpixelcolor_6',['getPixelColor',['../classAdafruit__NeoPixel.html#abccaba27e35bfae27c856e76b46c7924',1,'Adafruit_NeoPixel']]],
   ['getpixels_7',['getPixels',['../classAdafruit__NeoPixel.html#ab484e9a9da6f1089091c2cda1a0841a7',1,'Adafruit_NeoPixel']]],
-  ['goffset_8',['gOffset',['../classAdafruit__NeoPixel.html#a3db2bc3b72073fd9a86438128186fc98',1,'Adafruit_NeoPixel']]],
-  ['green_9',['green',['../structRGBColor.html#aca75024902a233f3449935b01387b687',1,'RGBColor::green()'],['../HIDInterface_8cpp.html#a121884e31885bb2c935ac1f23f5cecd0',1,'green():&#160;HIDInterface.cpp']]]
+  ['glob_5ffunc_8',['glob_func',['../memgrp_8cpp.html#a36cb413747454fcdba9dd7b8f972fcf3',1,'memgrp.cpp']]],
+  ['globalvalue_9',['globalValue',['../file_8h.html#a4a86bef4b6181cb3f53bd0461a9a511b',1,'file.h']]],
+  ['globenum_10',['GlobEnum',['../autolink_8cpp.html#a656d63cf384d2a6f23c2c18523a7bc5e',1,'autolink.cpp']]],
+  ['globvar_11',['globVar',['../autolink_8cpp.html#a88d0bae800d600a11d7bd60f0bc4b858',1,'autolink.cpp']]],
+  ['goffset_12',['gOffset',['../classAdafruit__NeoPixel.html#a3db2bc3b72073fd9a86438128186fc98',1,'Adafruit_NeoPixel']]],
+  ['green_13',['green',['../structRGBColor.html#aca75024902a233f3449935b01387b687',1,'RGBColor::green()'],['../HIDInterface_8cpp.html#a121884e31885bb2c935ac1f23f5cecd0',1,'green():&#160;HIDInterface.cpp']]],
+  ['group_2ecpp_14',['group.cpp',['../group_8cpp.html',1,'']]],
+  ['gval1_15',['GVal1',['../autolink_8cpp.html#a656d63cf384d2a6f23c2c18523a7bc5ea0f016f49e4f3bcd072319b9d68bc927d',1,'autolink.cpp']]],
+  ['gval2_16',['GVal2',['../autolink_8cpp.html#a656d63cf384d2a6f23c2c18523a7bc5ea811876e2eea5c16ae0594a95d98fbd55',1,'autolink.cpp']]]
 ];

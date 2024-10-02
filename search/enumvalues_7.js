@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['maxcount_0',['MaxCount',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3eae40d62a903c934834191a547a51e1680',1,'UserSetting.h']]],
-  ['mousemode_1',['MouseMode',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3eaec71ad0214f8262d30a0d0cbaedb4dcd',1,'UserSetting.h']]]
+  ['joymode_0',['joyMode',['../Menu_8h.html#aa6ab643a8d1b4869b94927025b3edba2a486b4b6e909e1c3a8a90b7a141c9c689',1,'Menu.h']]],
+  ['joysens_1',['joySens',['../Menu_8h.html#aa6ab643a8d1b4869b94927025b3edba2a90f290f9892b813249d5d932ba9780ba',1,'Menu.h']]]
 ];

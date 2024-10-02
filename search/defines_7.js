@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pgm_5fread_5fbyte_0',['pgm_read_byte',['../Adafruit__SSD1306_8cpp.html#a48c60b057902adf805797f183286728d',1,'Adafruit_SSD1306.cpp']]]
+  ['oled_5freset_0',['OLED_RESET',['../DisplayControl_8h.html#a619e07239fb3b9b14d40646ab41d5b4f',1,'DisplayControl.h']]]
 ];

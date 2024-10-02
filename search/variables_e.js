@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['spi_0',['spi',['../classAdafruit__SSD1306.html#a32cff6721c6a7760ad9ac8656080f511',1,'Adafruit_SSD1306']]],
-  ['splash1_5fdata_1',['splash1_data',['../Adafruit_01SH110X_2splash_8h.html#a3382be1b655515d792081bcf4275f2b1',1,'splash1_data():&#160;splash.h'],['../Adafruit_01SSD1306_2splash_8h.html#a3382be1b655515d792081bcf4275f2b1',1,'splash1_data():&#160;splash.h']]],
-  ['splash2_5fdata_2',['splash2_data',['../Adafruit_01SH110X_2splash_8h.html#a3487bd7a46d421aed81965d2be7608cf',1,'splash2_data():&#160;splash.h'],['../Adafruit_01SSD1306_2splash_8h.html#a3487bd7a46d421aed81965d2be7608cf',1,'splash2_data():&#160;splash.h']]]
+  ['rawxvalue_0',['rawXValue',['../structJoystick.html#a0189992477b6d9c89d2b685804deda16',1,'Joystick']]],
+  ['rawyvalue_1',['rawYValue',['../structJoystick.html#a3b0505f44ce4a0799bec1cae0744223a',1,'Joystick']]],
+  ['red_2',['red',['../structRGBColor.html#a5fed452f370de463fca724be4947bb54',1,'RGBColor::red()'],['../HIDInterface_8cpp.html#acaf199d5d53d25d1d3063423dd4cc012',1,'red():&#160;HIDInterface.cpp']]],
+  ['roffset_3',['rOffset',['../classAdafruit__NeoPixel.html#a8275f74399aea225b25aed014d740c99',1,'Adafruit_NeoPixel']]],
+  ['rstpin_4',['rstPin',['../classAdafruit__SSD1306.html#a6b6c0cb074a7fe3cbebf425ba4619ff5',1,'Adafruit_SSD1306']]]
 ];
