@@ -4,8 +4,9 @@
  * @details このファイルでは、非同期ブロッキングを実現するために遅延状態を管理し、経過時間を確認するための関数を定義しています。
  */
 
-#ifndef BLOACKMANAGER_H
-#define BLOACKMANAGER_H
+#ifndef BLOCKMANAGER_H
+#define BLOCKMANAGER_H
+
 
 #include <Arduino.h>
 
