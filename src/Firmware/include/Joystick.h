@@ -53,7 +53,7 @@ void initJoystick(Joystick &joystick, int xPin, int yPin, int buttonPin, int dea
  * @brief ジョイスティックの状態を更新します。
  * @details ジョイスティックのX軸、Y軸、およびボタンの現在の状態を更新します。 @n
  * アナログ値を読み取り、デッドゾーンの処理を行います。
- * ß
+ * 
  * @param joystick : 更新されるジョイスティックの状態を管理する構造体。
  */
 void updateJoystick(Joystick &joystick);
