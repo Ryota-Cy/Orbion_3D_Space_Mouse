@@ -69,10 +69,10 @@ void buttonMode(int buttonIndex,InputState &inputState,
         {
             updateInputDevices(inputState);
             if(status == RingStatus::up){
-                *btn++;
+                (*btn)++;
             }
             else if(status == RingStatus::down){
-                *btn--;
+                (*btn)--;
             }
 
             if(*btn > KEY_RIGHT_GUI){
