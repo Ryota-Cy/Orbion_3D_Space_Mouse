@@ -63,10 +63,6 @@ jobs:
       run: |
         python3 -m pip install -U platformio
 
-    - name: Build with PlatformIO
-      run: platformio run
-      working-directory: ./src/Firmware
-
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
@@ -98,6 +94,7 @@ jobs:
     - if: matrix.build-mode == 'manual'
       shell: bash
       run: codeql database create codeql-db --language=cpp --command="platformio run"
+      working-directory: ./src/Firmware
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
