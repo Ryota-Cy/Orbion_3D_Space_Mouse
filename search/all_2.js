@@ -4,7 +4,7 @@ var searchData=
   ['begin_1',['begin',['../classAdafruit__SH1107.html#a7602bc056fafd215f65fc8c81047ecb1',1,'Adafruit_SH1107::begin()'],['../classAdafruit__SSD1306.html#aa5457e560feed75336001927c8e0f651',1,'Adafruit_SSD1306::begin()'],['../classAdafruit__SH1106G.html#a8c3dcfd286a325e9ef94624cb72f9477',1,'Adafruit_SH1106G::begin()'],['../classBLESerial.html#ae0893d4c84d93e0a53f95010c0dbb665',1,'BLESerial::begin(...)'],['../classBLESerial.html#ae0893d4c84d93e0a53f95010c0dbb665',1,'BLESerial::begin(...)'],['../classAdafruit__NeoPixel.html#ac1cb16509be644232ce0e28d250083da',1,'Adafruit_NeoPixel::begin(void)']]],
   ['begun_2',['begun',['../classAdafruit__NeoPixel.html#a2215c42c8ed043dc43d28592c2c1d750',1,'Adafruit_NeoPixel']]],
   ['black_3',['BLACK',['../Adafruit__SSD1306_8h.html#a7b3b25cba33b07c303f3060fe41887f6',1,'Adafruit_SSD1306.h']]],
-  ['blender_4',['Blender',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3eacf23494e6c01decbf80f15d940754f0f',1,'UserSetting.h']]],
+  ['blender_4',['Blender',['../UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8acf23494e6c01decbf80f15d940754f0f',1,'UserSetting.h']]],
   ['bleserial_5',['BLESerial',['../classBLESerial.html#a4024e9e6ac2be460a0890c707460222b',1,'BLESerial::BLESerial()'],['../classBLESerial.html',1,'BLESerial'],['../classBLESerial.html#a4024e9e6ac2be460a0890c707460222b',1,'BLESerial::BLESerial()']]],
   ['bleserial_2ecpp_6',['BLESerial.cpp',['../StrandtestBLE_2BLESerial_8cpp.html',1,'(Global Namespace)'],['../StrandtestBLE__nodelay_2BLESerial_8cpp.html',1,'(Global Namespace)']]],
   ['bleserial_2eh_7',['BLESerial.h',['../StrandtestBLE__nodelay_2BLESerial_8h.html',1,'(Global Namespace)'],['../StrandtestBLE_2BLESerial_8h.html',1,'(Global Namespace)']]],

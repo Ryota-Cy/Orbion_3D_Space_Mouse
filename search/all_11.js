@@ -11,7 +11,7 @@ var searchData=
   ['reswireclock_8',['RESWIRECLOCK',['../Adafruit__SSD1306_8cpp.html#a8a12267a30c5420902b4e9356f8a1e05',1,'Adafruit_SSD1306.cpp']]],
   ['rgbcolor_9',['RGBColor',['../structRGBColor.html',1,'']]],
   ['rgbcolor_2eh_10',['RGBColor.h',['../RGBColor_8h.html',1,'']]],
-  ['rhino_11',['Rhino',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3eab355d8909771f2d94a019fa3e5e24592',1,'UserSetting.h']]],
+  ['rhino_11',['Rhino',['../UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8ab355d8909771f2d94a019fa3e5e24592',1,'UserSetting.h']]],
   ['ringstatus_12',['RingStatus',['../Menu_8h.html#abf0727e5191c326f5eafb194323fb8cd',1,'Menu.h']]],
   ['roffset_13',['rOffset',['../classAdafruit__NeoPixel.html#a8275f74399aea225b25aed014d740c99',1,'Adafruit_NeoPixel']]],
   ['rp2040_5fpio_2eh_14',['rp2040_pio.h',['../rp2040__pio_8h.html',1,'']]],

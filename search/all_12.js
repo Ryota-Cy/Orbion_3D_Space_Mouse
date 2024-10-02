@@ -48,7 +48,7 @@ var searchData=
   ['showmainmenu_45',['showMainMenu',['../Menu_8h.html#ad81a07620a47d11ef65c28bb0852c824',1,'showMainMenu(InputState &amp;inputState, UserSetting &amp;userSetting):&#160;Menu.cpp'],['../Menu_8cpp.html#ad81a07620a47d11ef65c28bb0852c824',1,'showMainMenu(InputState &amp;inputState, UserSetting &amp;userSetting):&#160;Menu.cpp']]],
   ['showneopixel_46',['showNeoPixel',['../Neopixel_8h.html#ac9a53d2b1f6c14158a9441aa339f1a67',1,'showNeoPixel():&#160;Neopixel.cpp'],['../Neopixel_8cpp.html#ac9a53d2b1f6c14158a9441aa339f1a67',1,'showNeoPixel():&#160;Neopixel.cpp']]],
   ['sine8_47',['sine8',['../classAdafruit__NeoPixel.html#afb00024000da81bcb6378c7052f77be3',1,'Adafruit_NeoPixel']]],
-  ['solidworkandedge_48',['SolidWorkAndEdge',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3eab930001300f73be1e43ff0bc79d6a679',1,'UserSetting.h']]],
+  ['solidworkandedge_48',['SolidWorkAndEdge',['../UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8ab930001300f73be1e43ff0bc79d6a679',1,'UserSetting.h']]],
   ['spi_49',['spi',['../classAdafruit__SSD1306.html#a32cff6721c6a7760ad9ac8656080f511',1,'Adafruit_SSD1306']]],
   ['spi_5ftransaction_5fend_50',['SPI_TRANSACTION_END',['../Adafruit__SSD1306_8cpp.html#afee4196c8db1b561457c1aa16769d6e2',1,'Adafruit_SSD1306.cpp']]],
   ['spi_5ftransaction_5fstart_51',['SPI_TRANSACTION_START',['../Adafruit__SSD1306_8cpp.html#a11ebf1d08d0a4b8c669142611e185e4c',1,'Adafruit_SSD1306.cpp']]],

@@ -15,10 +15,10 @@ var searchData=
   ['adafruit_5fssd1306_20_3ca_20href_3d_22https_3a_2f_2fgithub_2ecom_2fadafruit_2fadafruit_5fssd1306_2factions_22_20_3e_3cimg_20src_3d_22https_3a_2f_2fgithub_2ecom_2fadafruit_2fadafruit_5fssd1306_2fworkflows_2farduino_2520library_2520ci_2fbadge_2esvg_22_20alt_3d_22build_20status_22_2f_3e_3c_2fa_3e_3ca_20href_3d_22http_3a_2f_2fadafruit_2egithub_2eio_2fadafruit_5fssd1306_2fhtml_2findex_2ehtml_22_20_3e_3cimg_20src_3d_22https_3a_2f_2fgithub_2ecom_2fadafruit_2fci_2darduino_2fblob_2fmaster_2fassets_2fdoxygen_5fbadge_2esvg_22_20alt_3d_22documentation_22_2f_3e_3c_2fa_3e_12',['Adafruit_SSD1306 &lt;a href=&quot;https://github.com/adafruit/Adafruit_SSD1306/actions&quot; &gt;&lt;img src=&quot;https://github.com/adafruit/Adafruit_SSD1306/workflows/Arduino%20Library%20CI/badge.svg&quot; alt=&quot;Build Status&quot;/&gt;&lt;/a&gt;&lt;a href=&quot;http://adafruit.github.io/Adafruit_SSD1306/html/index.html&quot; &gt;&lt;img src=&quot;https://github.com/adafruit/ci-arduino/blob/master/assets/doxygen_badge.svg&quot; alt=&quot;Documentation&quot;/&gt;&lt;/a&gt;',['../md_src_Firmware_lib_Adafruit_SSD1306_README.html',1,'']]],
   ['adafruit_5fssd1306_2ecpp_13',['Adafruit_SSD1306.cpp',['../Adafruit__SSD1306_8cpp.html',1,'']]],
   ['adafruit_5fssd1306_2eh_14',['Adafruit_SSD1306.h',['../Adafruit__SSD1306_8h.html',1,'']]],
-  ['adobe_15',['Adobe',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3eaed822f6693297aa26e0ea45f876a5cec',1,'UserSetting.h']]],
+  ['adobe_15',['Adobe',['../UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8aed822f6693297aa26e0ea45f876a5cec',1,'UserSetting.h']]],
   ['alt_5fgr_16',['ALT_GR',['../KeyboardLayout_8h.html#a9f442ea8e152fb4fd33cf2e3223a0530',1,'KeyboardLayout.h']]],
-  ['ansa_17',['ANSA',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3ea48db9065190361725be038e01f909292',1,'UserSetting.h']]],
+  ['ansa_17',['ANSA',['../UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8a48db9065190361725be038e01f909292',1,'UserSetting.h']]],
   ['arduino_20library_20for_20driving_20adafruit_20neopixel_20addressable_20leds_2c_18',['Arduino Library for driving Adafruit NeoPixel addressable LEDs,',['../index.html',1,'']]],
-  ['autodesk_19',['Autodesk',['../UserSetting_8h.html#a73c0f47be12807852634407095195a3eaa04aaccb58d0139c638b1fa3882e99c8',1,'UserSetting.h']]],
+  ['autodesk_19',['Autodesk',['../UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8aa04aaccb58d0139c638b1fa3882e99c8',1,'UserSetting.h']]],
   ['available_20',['available',['../classBLESerial.html#a00edf0dc64427ecc34cbf6852cb12089',1,'BLESerial::available(void)'],['../classBLESerial.html#a0dba14ded5137ea3bb5b7b0458dcdd4e',1,'BLESerial::available(void)']]]
 ];
