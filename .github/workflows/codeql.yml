@@ -44,7 +44,7 @@ jobs:
       matrix:
         include:
         - language: c-cpp
-          build-mode: autobuild
+          build-mode: manual
         - language: python
           build-mode: none
         # CodeQL supports the following values keywords for 'language': 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
@@ -58,6 +58,13 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+
+    - name: Install PlatformIO
+      run: |
+        python3 -m pip install -U platformio
+
+    - name: Build with PlatformIO
+      run: platformio run
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
@@ -78,17 +85,21 @@ jobs:
     # to build your code.
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
+    # - if: matrix.build-mode == 'manual'
+    #   shell: bash
+    #   run: |
+    #     echo 'If you are using a "manual" build mode for one or more of the' \
+    #       'languages you are analyzing, replace this with the commands to build' \
+    #       'your code, for example:'
+    #     echo '  make bootstrap'
+    #     echo '  make release'
+    #     exit 1
     - if: matrix.build-mode == 'manual'
       shell: bash
-      run: |
-        echo 'If you are using a "manual" build mode for one or more of the' \
-          'languages you are analyzing, replace this with the commands to build' \
-          'your code, for example:'
-        echo '  make bootstrap'
-        echo '  make release'
-        exit 1
+      run: codeql database create codeql-db --language=cpp --command="platformio run"
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
-        category: "/language:${{matrix.language}}"
+        #category: "/language:${{matrix.language}}"
+        category: codeql-db
