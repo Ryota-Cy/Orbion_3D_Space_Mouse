@@ -18,8 +18,8 @@ var Menu_8h =
       [ "down", "Menu_8h.html#abf0727e5191c326f5eafb194323fb8cda00156fc42b17a87d0746d97b42caf296", null ]
     ] ],
     [ "operator++", "Menu_8h.html#ae2f65324060ba47ce28630eec7d740ec", null ],
-    [ "operator++", "Menu_8h.html#a55288f2facf110f66b6422d0f69ab18b", null ],
+    [ "operator++", "Menu_8h.html#a25977e0cda4c321c167aa062bb939b87", null ],
     [ "operator--", "Menu_8h.html#a3e98b8a4b3d24d46abe1923e729aea51", null ],
-    [ "operator--", "Menu_8h.html#aa197876aa605b161127d421e62c6840c", null ],
+    [ "operator--", "Menu_8h.html#a66b0af7573d19dfb9028fb1e66cda1b9", null ],
     [ "showMainMenu", "Menu_8h.html#ad81a07620a47d11ef65c28bb0852c824", null ]
 ];
