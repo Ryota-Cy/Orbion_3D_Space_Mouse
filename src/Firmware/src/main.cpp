@@ -23,7 +23,6 @@ InputState inputState;
 UserSetting userSetting;
 
 void setup() {
-    Serial.begin(115200);
     initDisplay();
     initInputDevices(inputState);
     initNeoPixel();
@@ -37,8 +36,9 @@ void loop() {
     if(inputState.button1.isPressed && inputState.joystick.button.isPressed){
         showMainMenu(inputState, userSetting);
         userSetting = readUserSetting();
+        delay(100);
     }
 
     // TODO  Time out Display 
-    delay(100);
+    
 }

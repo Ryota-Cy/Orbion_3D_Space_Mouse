@@ -23,11 +23,12 @@ UserSetting readUserSetting(){
         pixelColor,
         };
 
+        bakupUserSetting = defaultUserSetting;
         return defaultUserSetting;
     }
 }
 
-bool checkUpdateValues(UserSetting &userSetting){
+bool checkUpdateValues(const UserSetting &userSetting){
     if(userSetting.button1key != bakupUserSetting.button1key ||
         userSetting.button2key != bakupUserSetting.button2key ||
         userSetting.button3key != bakupUserSetting.button3key ||

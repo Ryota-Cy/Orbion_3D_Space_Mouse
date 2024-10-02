@@ -1,87 +1,90 @@
 #include "Menu.h"
 
+DelayState joySensDelay = initDelay(300);
+DelayState joyModeDelay = initDelay(300);
+DelayState buttonModeDelay = initDelay(300);
+
 void setJoySens(InputState &inputState, UserSetting &userSetting, RingStatus status){
-    delay(300);
     do
     {
-        updateInputDevices(inputState);
-        if(status == RingStatus::up){
-        userSetting.joySens++;
+        if(isElapsed(joySensDelay)){
+            updateInputDevices(inputState);
+            if(status == RingStatus::up){
+            userSetting.joySens++;
+            }
+            else if(status == RingStatus::down){
+                userSetting.joySens--;
+            }
         }
-        else if(status == RingStatus::down){
-            userSetting.joySens--;
-        }
+
         displayMessage("Sens: " + userSetting.joySens);
     } while (!inputState.joystick.button.isPressed);
-    delay(300);
 }
 
 
 void setJoyMode(InputState &inputState, UserSetting &userSetting, RingStatus status){
-    delay(300);
     do
     {
-        updateInputDevices(inputState);
-        if(status == RingStatus::up){
-            userSetting.joyMode++;
-        }
-        else if(status == RingStatus::down){
-            userSetting.joyMode--;
-        }
+        if(isElapsed(joyModeDelay)){
+            updateInputDevices(inputState);
+            if(status == RingStatus::up){
+                userSetting.joyMode++;
+            }
+            else if(status == RingStatus::down){
+                userSetting.joyMode--;
+            }
 
-        if(userSetting.joyMode >= CADMode::MaxCount){
-            userSetting.joyMode = CADMode::MouseMode;
+            if(userSetting.joyMode >= CADMode::MaxCount){
+                userSetting.joyMode = CADMode::MouseMode;
+            }
         }
 
         displayMessage("JoyMode: " + userSetting.joyMode);
     } while (!inputState.joystick.button.isPressed);
-    delay(300);
 }
 
 
-void buttonMode(
-    int buttonIndex,
-    InputState &inputState, 
-    UserSetting &userSetting, 
-    RingStatus status){
+void buttonMode(int buttonIndex,InputState &inputState, 
+    UserSetting &userSetting, RingStatus status){
     
-    delay(300);
-    int* btn;
-    switch (buttonIndex)
-    {
-    case 1:
-        btn = &(userSetting.button1key);
-        break;
-    case 2:
-        btn = &(userSetting.button2key);
-        break;
-    case 3:
-        btn = &(userSetting.button3key);
-        break;
-    default:
-        break;
+    if(isElapsed(buttonModeDelay)){
+        int* btn;
+        switch (buttonIndex)
+        {
+        case 1:
+            btn = &(userSetting.button1key);
+            break;
+        case 2:
+            btn = &(userSetting.button2key);
+            break;
+        case 3:
+            btn = &(userSetting.button3key);
+            break;
+        default:
+            displayMessage("Error!");
+            break;
+        }
+        
+        do
+        {
+            updateInputDevices(inputState);
+            if(status == RingStatus::up){
+                *btn++;
+            }
+            else if(status == RingStatus::down){
+                *btn--;
+            }
+
+            if(*btn > KEY_RIGHT_GUI){
+                *btn = KEY_LEFT_CTRL;
+            }
+
+            // TODO 表示する文字列への変換はまた今度。
+            displayMessage("Select Button Key");
+            displayMessage("Button: " + *btn);
+
+        } while (!inputState.joystick.button.isPressed);
     }
-    
-    do
-    {
-        updateInputDevices(inputState);
-        if(status == RingStatus::up){
-            *btn++;
-        }
-        else if(status == RingStatus::down){
-            *btn--;
-        }
-
-        if(*btn > KEY_RIGHT_GUI){
-            *btn = KEY_LEFT_CTRL;
-        }
-
-        // TODO 表示する文字列への変換はまた今度。
-        displayMessage("Select Button Key");
-        displayMessage("Button: " + *btn);
-
-    } while (!inputState.joystick.button.isPressed);
-    delay(300);
 }
 
 bool handleMenuSelection(MenuItem &selection, 
@@ -138,13 +141,13 @@ bool handleMenuSelection(MenuItem &selection,
         case MenuItem::setLED :
             displayMessage("LED Setting");
             if(buttonIsPressed){
-                
+                // TODO
             }
             break;
         case MenuItem::setBrightness :
             displayMessage("Brightness Setting");
             if(buttonIsPressed){
-                
+                // TODO
             }
             break;
         case MenuItem::exitMenu :
@@ -170,7 +173,7 @@ void showMainMenu(InputState &inputState, UserSetting &userSetting){
 
     do
     {
-        if((millis() - lastDebounceTime) > DEBOUNCE_DELEY){
+        if((millis() - lastDebounceTime) > DEBOUNCE_DELAY){
             selection = (MenuItem)(selection % MenuItem::itemCount);
             menuMode = handleMenuSelection(selection, 
                 inputState, 
