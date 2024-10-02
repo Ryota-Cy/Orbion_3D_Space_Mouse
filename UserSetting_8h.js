@@ -15,10 +15,10 @@ var UserSetting_8h =
       [ "Onshape", "UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8a70a64f77e5c3ee3b1d4e9e3f422d2a65", null ],
       [ "MaxCount", "UserSetting_8h.html#ad802fa1feca5d60e3b38dad60af85bb8ae40d62a903c934834191a547a51e1680", null ]
     ] ],
-    [ "operator++", "UserSetting_8h.html#abd08b14f8ff5463a384ab239488449df", null ],
-    [ "operator++", "UserSetting_8h.html#a92cd2885bddbfaf5bdfbf97c8cd7020f", null ],
-    [ "operator--", "UserSetting_8h.html#abed861f9a7b9a3eb2093acf3ada13af1", null ],
-    [ "operator--", "UserSetting_8h.html#af70f160ea10395a3e94e22b21fee08c6", null ],
+    [ "operator++", "UserSetting_8h.html#a07373fe99f1122c9cb6bf3b6403c89b7", null ],
+    [ "operator++", "UserSetting_8h.html#ac71842e0965b1ac2562dab7e0dc97264", null ],
+    [ "operator--", "UserSetting_8h.html#a949a6beabce8ea663c90b4538fa46f39", null ],
+    [ "operator--", "UserSetting_8h.html#a06c57520f03e629c20ad1dcecc528c9e", null ],
     [ "putUserSetting", "UserSetting_8h.html#a67cd486032bdee9bdd241722e21ad73d", null ],
     [ "readUserSetting", "UserSetting_8h.html#a803bc02241f36a5b08e3d2582d6b1aeb", null ]
 ];

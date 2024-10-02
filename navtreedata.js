@@ -84,8 +84,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Adafruit_01SH110X_2splash_8h.html",
-"Menu_8h.html#abf0727e5191c326f5eafb194323fb8cda411a6ae8b6775768a0c5386d2a1ad68d",
-"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md8"
+"Menu_8h.html#aa6ab643a8d1b4869b94927025b3edba2a97f3122680cd8e378660d04b8d381ad8",
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md11"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,13 @@
 var NAVTREEINDEX2 =
 {
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md11":[2,4,0],
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md12":[2,5],
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md13":[2,6],
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md3":[2,0],
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md4":[2,0,0],
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md5":[2,0,1],
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md6":[2,1],
+"md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md7":[2,2],
 "md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md8":[2,3],
 "md_src_Firmware_lib_Adafruit_NeoPixel_README.html#autotoc_md9":[2,3,0],
 "md_src_Firmware_lib_Adafruit_SH110X_README.html":[3],
