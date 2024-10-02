@@ -93,7 +93,8 @@ jobs:
     #     exit 1
     - if: matrix.build-mode == 'manual'
       shell: bash
-      run: codeql database create codeql-db --language=cpp --command="platformio run"
+      run: |
+        codeql database create codeql-db --language=cpp --command="platformio run"
       working-directory: ./src/Firmware
 
     - name: Perform CodeQL Analysis
