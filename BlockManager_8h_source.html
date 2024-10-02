@@ -93,26 +93,27 @@ $(document).ready(function(){initNavTree('BlockManager_8h_source.html',''); init
 </div><!--header-->
 <div class="contents">
 <a href="BlockManager_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef BLOACKMANAGER_H</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define BLOACKMANAGER_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef BLOCKMANAGER_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define BLOCKMANAGER_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structDelayState.html">   19</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structDelayState.html">DelayState</a> {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structDelayState.html#a0d3574a1b8ef2b57288a91a9f1980685">   20</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code hl_variable" href="structDelayState.html#a0d3574a1b8ef2b57288a91a9f1980685">lastRunTime</a>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structDelayState.html#aedf146ba48a06d3c1372ea5ecbacc198">   21</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code hl_variable" href="structDelayState.html#aedf146ba48a06d3c1372ea5ecbacc198">interval</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><a class="code hl_struct" href="structDelayState.html">DelayState</a> <a class="code hl_function" href="BlockManager_8h.html#a33909673f814c5be1323c0b19fddd73c">initDelay</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> interval);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keywordtype">bool</span> <a class="code hl_function" href="BlockManager_8h.html#ac8a3f3239b8b908917b4681d27fb4b15">isElapsed</a>(<a class="code hl_struct" href="structDelayState.html">DelayState</a> &amp;state);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structDelayState.html">   20</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structDelayState.html">DelayState</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structDelayState.html#a0d3574a1b8ef2b57288a91a9f1980685">   21</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code hl_variable" href="structDelayState.html#a0d3574a1b8ef2b57288a91a9f1980685">lastRunTime</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structDelayState.html#aedf146ba48a06d3c1372ea5ecbacc198">   22</a></span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code hl_variable" href="structDelayState.html#aedf146ba48a06d3c1372ea5ecbacc198">interval</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><a class="code hl_struct" href="structDelayState.html">DelayState</a> <a class="code hl_function" href="BlockManager_8h.html#a33909673f814c5be1323c0b19fddd73c">initDelay</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> interval);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">bool</span> <a class="code hl_function" href="BlockManager_8h.html#ac8a3f3239b8b908917b4681d27fb4b15">isElapsed</a>(<a class="code hl_struct" href="structDelayState.html">DelayState</a> &amp;state);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aBlockManager_8h_html_a33909673f814c5be1323c0b19fddd73c"><div class="ttname"><a href="BlockManager_8h.html#a33909673f814c5be1323c0b19fddd73c">initDelay</a></div><div class="ttdeci">DelayState initDelay(unsigned long interval)</div><div class="ttdoc">遅延の初期化を行います。</div><div class="ttdef"><b>Definition:</b> BlockManager.cpp:10</div></div>
 <div class="ttc" id="aBlockManager_8h_html_ac8a3f3239b8b908917b4681d27fb4b15"><div class="ttname"><a href="BlockManager_8h.html#ac8a3f3239b8b908917b4681d27fb4b15">isElapsed</a></div><div class="ttdeci">bool isElapsed(DelayState &amp;state)</div><div class="ttdoc">指定された遅延時間が経過したかを確認します。</div><div class="ttdef"><b>Definition:</b> BlockManager.cpp:18</div></div>
-<div class="ttc" id="astructDelayState_html"><div class="ttname"><a href="structDelayState.html">DelayState</a></div><div class="ttdoc">遅延の状態を管理する構造体です。</div><div class="ttdef"><b>Definition:</b> BlockManager.h:19</div></div>
-<div class="ttc" id="astructDelayState_html_a0d3574a1b8ef2b57288a91a9f1980685"><div class="ttname"><a href="structDelayState.html#a0d3574a1b8ef2b57288a91a9f1980685">DelayState::lastRunTime</a></div><div class="ttdeci">unsigned long lastRunTime</div><div class="ttdef"><b>Definition:</b> BlockManager.h:20</div></div>
-<div class="ttc" id="astructDelayState_html_aedf146ba48a06d3c1372ea5ecbacc198"><div class="ttname"><a href="structDelayState.html#aedf146ba48a06d3c1372ea5ecbacc198">DelayState::interval</a></div><div class="ttdeci">unsigned long interval</div><div class="ttdef"><b>Definition:</b> BlockManager.h:21</div></div>
+<div class="ttc" id="astructDelayState_html"><div class="ttname"><a href="structDelayState.html">DelayState</a></div><div class="ttdoc">遅延の状態を管理する構造体です。</div><div class="ttdef"><b>Definition:</b> BlockManager.h:20</div></div>
+<div class="ttc" id="astructDelayState_html_a0d3574a1b8ef2b57288a91a9f1980685"><div class="ttname"><a href="structDelayState.html#a0d3574a1b8ef2b57288a91a9f1980685">DelayState::lastRunTime</a></div><div class="ttdeci">unsigned long lastRunTime</div><div class="ttdef"><b>Definition:</b> BlockManager.h:21</div></div>
+<div class="ttc" id="astructDelayState_html_aedf146ba48a06d3c1372ea5ecbacc198"><div class="ttname"><a href="structDelayState.html#aedf146ba48a06d3c1372ea5ecbacc198">DelayState::interval</a></div><div class="ttdeci">unsigned long interval</div><div class="ttdef"><b>Definition:</b> BlockManager.h:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
