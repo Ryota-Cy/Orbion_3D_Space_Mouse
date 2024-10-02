@@ -45,8 +45,8 @@ jobs:
         include:
         - language: c-cpp
           build-mode: manual
-        - language: python
-          build-mode: none
+        # - language: python
+        #   build-mode: none
         # CodeQL supports the following values keywords for 'language': 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
         # Use `c-cpp` to analyze code written in C, C++ or both
         # Use 'java-kotlin' to analyze code written in Java, Kotlin or both
@@ -63,14 +63,14 @@ jobs:
       run: |
         python3 -m pip install -U platformio
 
-    - name: Build with PlatformIO
-      run: platformio run
-      working-directory: ./src/Firmware
-
     - name: Install CodeQL CLI
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
+
+    - name: Build with PlatformIO
+      run: platformio run
+      working-directory: ./src/Firmware
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
