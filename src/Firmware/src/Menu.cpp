@@ -184,3 +184,29 @@ void showMainMenu(InputState &inputState, UserSetting &userSetting){
         }
     } while (menuMode);
 }
+
+MenuItem& operator ++ (MenuItem& menuItem)
+{
+    menuItem = static_cast<MenuItem>(menuItem + 1);
+    return menuItem;
+}
+
+MenuItem& operator ++ (MenuItem& menuItem, int)
+{
+    MenuItem prev = menuItem;
+    ++menuItem;
+    return prev;
+}
+
+MenuItem& operator -- (MenuItem& menuItem)
+{
+    menuItem = static_cast<MenuItem>(menuItem - 1);
+    return menuItem;
+}
+
+MenuItem& operator -- (MenuItem& menuItem, int)
+{
+    MenuItem prev = menuItem;
+    --menuItem;
+    return prev;
+}

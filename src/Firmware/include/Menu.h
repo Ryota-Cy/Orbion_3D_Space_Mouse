@@ -67,11 +67,7 @@ void showMainMenu(InputState &inputState, UserSetting &userSetting);
  * @param menuItem : 操作対象のメニュー項目。
  * @return MenuItem : 次のメニュー項目。
  */
-MenuItem& operator ++ (MenuItem& menuItem)
-{
-    menuItem = static_cast<MenuItem>(menuItem + 1);
-    return menuItem;
-}
+MenuItem& operator ++ (MenuItem& menuItem);
 
 /**
  * @brief MenuItemの後置インクリメント演算子のオーバーロード。
@@ -80,12 +76,7 @@ MenuItem& operator ++ (MenuItem& menuItem)
  * @param menuItem : 操作対象のメニュー項目。
  * @return MenuItem : 進める前のメニュー項目。
  */
-MenuItem& operator ++ (MenuItem& menuItem, int)
-{
-    MenuItem prev = menuItem;
-    ++menuItem;
-    return prev;
-}
+MenuItem& operator ++ (MenuItem& menuItem, int);
 
 /**
  * @brief MenuItemのデクリメント演算子のオーバーロード。
@@ -94,11 +85,7 @@ MenuItem& operator ++ (MenuItem& menuItem, int)
  * @param menuItem : 操作対象のメニュー項目。
  * @return MenuItem : 前のメニュー項目。
  */
-MenuItem& operator -- (MenuItem& menuItem)
-{
-    menuItem = static_cast<MenuItem>(menuItem - 1);
-    return menuItem;
-}
+MenuItem& operator -- (MenuItem& menuItem);
 
 /**
  * @brief MenuItemの後置デクリメント演算子のオーバーロード。
@@ -107,10 +94,5 @@ MenuItem& operator -- (MenuItem& menuItem)
  * @param menuItem : 操作対象のメニュー項目。
  * @return MenuItem : 戻す前のメニュー項目。
  */
-MenuItem& operator -- (MenuItem& menuItem, int)
-{
-    MenuItem prev = menuItem;
-    --menuItem;
-    return prev;
-}
+MenuItem& operator -- (MenuItem& menuItem, int);
 #endif

@@ -87,11 +87,7 @@ void putUserSetting(UserSetting &userSetting);
  * @param cadMode : 操作対象のCADモード。
  * @return 次のCADモード。
  */
-CADMode& operator ++ (CADMode& cadMode)
-{
-    cadMode = static_cast<CADMode>(cadMode + 1);
-    return cadMode;
-}
+CADMode& operator++(CADMode&);
 
 /**
  * @brief CADModeの後置インクリメント演算子のオーバーロード。
@@ -100,12 +96,7 @@ CADMode& operator ++ (CADMode& cadMode)
  * @param cadMode : 操作対象のCADモード。
  * @return 進める前のCADモード。
  */
-CADMode& operator ++ (CADMode& cadMode, int)
-{
-    CADMode prev = cadMode;
-    ++cadMode;
-    return prev;
-}
+CADMode operator++(CADMode&, int);
 
 /**
  * @brief CADModeのデクリメント演算子のオーバーロード。
@@ -114,11 +105,7 @@ CADMode& operator ++ (CADMode& cadMode, int)
  * @param cadMode : 操作対象のCADモード。
  * @return 前のCADモード。
  */
-CADMode& operator -- (CADMode& cadMode)
-{
-    cadMode = static_cast<CADMode>(cadMode - 1);
-    return cadMode;
-}
+CADMode& operator--(CADMode&);
 
 /**
  * @brief CADModeの後置デクリメント演算子のオーバーロード。
@@ -127,11 +114,6 @@ CADMode& operator -- (CADMode& cadMode)
  * @param cadMode : 操作対象のCADモード。
  * @return 戻す前のCADモード。
  */
-CADMode& operator -- (CADMode& cadMode, int)
-{
-    CADMode prev = cadMode;
-    --cadMode;
-    return prev;
-}
+CADMode operator--(CADMode&, int);
 
 #endif

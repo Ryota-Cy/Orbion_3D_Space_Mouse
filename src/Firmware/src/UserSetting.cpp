@@ -36,3 +36,29 @@ void putUserSetting(UserSetting &userSetting){
         EEPROM.put(USERSETTING_MEMORY_INDEX, userSetting);
     }
 }
+
+CADMode& operator ++ (CADMode& cadMode)
+{
+    cadMode = static_cast<CADMode>(cadMode + 1);
+    return cadMode;
+}
+
+CADMode operator ++ (CADMode& cadMode, int)
+{
+    CADMode prev = cadMode;
+    ++cadMode;
+    return prev;
+}
+
+CADMode& operator -- (CADMode& cadMode)
+{
+    cadMode = static_cast<CADMode>(cadMode - 1);
+    return cadMode;
+}
+
+CADMode operator -- (CADMode& cadMode, int)
+{
+    CADMode prev = cadMode;
+    --cadMode;
+    return prev;
+}
