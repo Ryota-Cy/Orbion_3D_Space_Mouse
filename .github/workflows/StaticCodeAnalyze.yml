@@ -1,1 +1,31 @@
+name: Build and Static Analysis with PlatformIO
 
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install PlatformIO
+      run: |
+        python3 -m pip install -U platformio
+
+    - name: Build project with PlatformIO
+      run: |
+        platformio run
+      working-directory: ./src/Firmware
+
+    - name: Run static code analysis with PlatformIO
+      run: |
+        platformio check --skip-packages
+      working-directory: ./src/Firmware 
