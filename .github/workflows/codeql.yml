@@ -91,6 +91,12 @@ jobs:
     #     echo '  make bootstrap'
     #     echo '  make release'
     #     exit 1
+
+    - name: Build with PlatformIO
+      run: |
+        platformio run
+      working-directory: ./src/Firmware  # プロジェクトのソースコードディレクトリ
+
     - if: matrix.build-mode == 'manual'
       run: |
         /opt/hostedtoolcache/CodeQL/2.19.0/x64/codeql/codeql database create codeql-db --language=${{ matrix.language }} --command="platformio run"
