@@ -69,6 +69,13 @@ const unsigned char faq[] PROGMEM = {
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
+void showBitMap()
+{
+    display.clearDisplay();
+    display.drawBitmap(0, -3, faq, 128, 64, 1 );
+    display.display();
+}
+
 void initDisplay() {
     if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
         Serial.println(F("SSD1306 allocation failed"));
@@ -76,13 +83,6 @@ void initDisplay() {
     }
     clearDisplay();
     showBitMap();
-}
-
-void showBitMap()
-{
-    display.clearDisplay();
-    display.drawBitmap(0, -3, faq, 128, 64, 1 );
-    display.display();
 }
 
 void clearDisplay() {

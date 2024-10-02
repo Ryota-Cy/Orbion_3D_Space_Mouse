@@ -11,18 +11,7 @@ UserSetting readUserSetting(){
         return userSetting;
     }
     else{
-        RGBColor pixelColor ={0, 0, 0};
-        UserSetting defaultUserSetting = {
-        true,
-        8,
-        CADMode::MouseMode,
-        KEY_LEFT_SHIFT,
-        KEY_LEFT_CTRL, 
-        KEY_LEFT_ALT,
-        KEY_LEFT_SHIFT,
-        pixelColor,
-        };
-
+        UserSetting defaultUserSetting;
         bakupUserSetting = defaultUserSetting;
         return defaultUserSetting;
     }

@@ -34,6 +34,7 @@ void selectCADMode(UserSetting &userSetting){
     switch (userSetting.joyMode)
     {
       case CADMode::MouseMode :
+      case CADMode::MaxCount :
       break;
 
       case CADMode::Autodesk :

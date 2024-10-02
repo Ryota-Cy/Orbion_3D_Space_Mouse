@@ -53,14 +53,14 @@ enum CADMode
  */
 struct UserSetting
 {
-    bool enabled;
-    int joySens;
-    CADMode joyMode;
-    int joyButton;
-    int button1key;
-    int button2key;
-    int button3key;
-    RGBColor pixelColor;
+    bool enabled = false;
+    int joySens = 8;
+    CADMode joyMode = MouseMode;
+    int joyButton = KEY_LEFT_SHIFT;
+    int button1key = KEY_LEFT_CTRL;
+    int button2key = KEY_LEFT_ALT;
+    int button3key = KEY_LEFT_SHIFT;
+    RGBColor pixelColor = {0, 0, 0};
 };
 
 /**
