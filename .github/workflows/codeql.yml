@@ -63,11 +63,6 @@ jobs:
       run: |
         python3 -m pip install -U platformio
 
-    - name: Install CodeQL CLI
-      uses: github/codeql-action/init@v2
-      with:
-        languages: ${{ matrix.language }}
-
     - name: Build with PlatformIO
       run: platformio run
       working-directory: ./src/Firmware
