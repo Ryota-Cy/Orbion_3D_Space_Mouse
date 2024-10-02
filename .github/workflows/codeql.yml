@@ -99,7 +99,7 @@ jobs:
 
     - if: matrix.build-mode == 'manual'
       run: |
-        /opt/hostedtoolcache/CodeQL/2.19.0/x64/codeql/codeql database create codeql-db --language=${{ matrix.language }} --source-root=./src/Firmware --command="platformio run -v"
+        /opt/hostedtoolcache/CodeQL/2.19.0/x64/codeql/codeql database create codeql-db --language=${{ matrix.language }} --command="platformio run -v"
       working-directory: ./src/Firmware
 
     - name: Perform CodeQL Analysis
