@@ -8,7 +8,6 @@
 #define NEOPIXEL_H
 
 #include <Adafruit_NeoPixel.h>
-#include "RGBColor.h" 
 
 /**
  * @def NUMPIXELS

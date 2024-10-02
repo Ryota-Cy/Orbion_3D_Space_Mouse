@@ -9,7 +9,7 @@
 #define USERSETTING_H
 
 #include <EEPROM.h>
-#include "RGBColor.h"
+#include "Neopixel.h"
 #include <Keyboard.h>
 
 /**
