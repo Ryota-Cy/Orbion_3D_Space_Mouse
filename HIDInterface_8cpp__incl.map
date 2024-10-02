@@ -9,7 +9,7 @@
 <area shape="rect" id="node19" href="$Neopixel_8h.html" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="317,152,408,177"/>
 <area shape="rect" id="node4" title=" " alt="" coords="49,299,108,324"/>
 <area shape="rect" id="node7" title=" " alt="" coords="193,225,282,251"/>
-<area shape="rect" id="node8" href="$RGBColor_8h.html" title="RGBカラーに関するデータ構造および操作を定義しています。" alt="" coords="306,225,401,251"/>
+<area shape="rect" id="node8" title=" " alt="" coords="306,225,401,251"/>
 <area shape="rect" id="node10" href="$Button_8h.html" title="ボタンに関する制御を提供します。" alt="" coords="731,299,808,324"/>
 <area shape="rect" id="node12" href="$Joystick_8h.html" title="ジョイスティックの操作と状態管理を行う機能を提供します。" alt="" coords="651,225,736,251"/>
 <area shape="rect" id="node13" href="$Encoder_8h.html" title="ロータリーエンコーダーの制御を提供します。" alt="" coords="571,299,656,324"/>

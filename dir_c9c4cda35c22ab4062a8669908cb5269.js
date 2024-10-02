@@ -9,6 +9,5 @@ var dir_c9c4cda35c22ab4062a8669908cb5269 =
     [ "Joystick.h", "Joystick_8h.html", "Joystick_8h" ],
     [ "Menu.h", "Menu_8h.html", "Menu_8h" ],
     [ "Neopixel.h", "Neopixel_8h.html", "Neopixel_8h" ],
-    [ "RGBColor.h", "RGBColor_8h.html", "RGBColor_8h" ],
     [ "UserSetting.h", "UserSetting_8h.html", "UserSetting_8h" ]
 ];
