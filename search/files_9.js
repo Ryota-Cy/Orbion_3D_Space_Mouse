@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['javadoc_2dbanner_2eh_0',['javadoc-banner.h',['../javadoc-banner_8h.html',1,'']]],
-  ['jdstyle_2ecpp_1',['jdstyle.cpp',['../jdstyle_8cpp.html',1,'']]],
-  ['joystick_2ecpp_2',['JoyStick.cpp',['../JoyStick_8cpp.html',1,'']]],
-  ['joystick_2eh_3',['Joystick.h',['../Joystick_8h.html',1,'']]]
+  ['main_2ecpp_0',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['make_5fsplash_2epy_1',['make_splash.py',['../make__splash_8py.html',1,'']]],
+  ['menu_2ecpp_2',['Menu.cpp',['../Menu_8cpp.html',1,'']]],
+  ['menu_2eh_3',['Menu.h',['../Menu_8h.html',1,'']]],
+  ['mouse_2ecpp_4',['Mouse.cpp',['../Mouse_8cpp.html',1,'']]],
+  ['mouse_2eh_5',['Mouse.h',['../Mouse_8h.html',1,'']]]
 ];

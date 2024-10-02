@@ -1,8 +1,26 @@
 var searchData=
 [
-  ['peek_0',['peek',['../classBLESerial.html#a1b7740efb8e908f579b00ad4266677a5',1,'BLESerial::peek(void)'],['../classBLESerial.html#ac43fffedafc839b9686e273e533cc828',1,'BLESerial::peek(void)']]],
-  ['pixels_1',['pixels',['../Neopixel_8cpp.html#a74351c5d0b43cd83a9d6e48fc52abc7e',1,'Neopixel.cpp']]],
-  ['poll_2',['poll',['../classBLESerial.html#a8888659cfb5c843eeba48069437a9807',1,'BLESerial::poll()'],['../classBLESerial.html#a8888659cfb5c843eeba48069437a9807',1,'BLESerial::poll()']]],
-  ['putusersetting_3',['putUserSetting',['../UserSetting_8h.html#a67cd486032bdee9bdd241722e21ad73d',1,'putUserSetting(UserSetting &amp;userSetting):&#160;UserSetting.cpp'],['../UserSetting_8cpp.html#a67cd486032bdee9bdd241722e21ad73d',1,'putUserSetting(UserSetting &amp;userSetting):&#160;UserSetting.cpp']]],
-  ['pymethod_4',['PyMethod',['../classdocstring_1_1PyClass.html#af092e1eacc10334e0e8630531a3473b4',1,'docstring.PyClass.PyMethod()'],['../classpyexample_1_1PyClass.html#a654596774eb28a0c6d26eea565de3a9d',1,'pyexample.PyClass.PyMethod()']]]
+  ['selectcadmode_0',['selectCADMode',['../HIDInterface_8cpp.html#a56a9b6971d10831d4f6cd882856b8969',1,'HIDInterface.cpp']]],
+  ['sendmessagetohiddevice_1',['sendMessageToHIDDevice',['../HIDInterface_8cpp.html#a6725fcb683394b3564ca11f2b064c086',1,'sendMessageToHIDDevice(InputState &amp;inputState, UserSetting &amp;userSetting):&#160;HIDInterface.cpp'],['../HIDInterface_8h.html#a6725fcb683394b3564ca11f2b064c086',1,'sendMessageToHIDDevice(InputState &amp;inputState, UserSetting &amp;userSetting):&#160;HIDInterface.cpp']]],
+  ['setbrightness_2',['setBrightness',['../classAdafruit__NeoPixel.html#aa05f7d37828c43fef00e6242dcf75959',1,'Adafruit_NeoPixel']]],
+  ['setjoymode_3',['setJoyMode',['../Menu_8cpp.html#a341f3c01d3c000c7e09a263533df7bca',1,'Menu.cpp']]],
+  ['setjoysens_4',['setJoySens',['../Menu_8cpp.html#a2a240db316e362e35933c2c3db9462de',1,'Menu.cpp']]],
+  ['setneopixelcolor_5',['setNeoPixelColor',['../Neopixel_8h.html#a10f3e743c2809fcaf0be952d524aa8bc',1,'setNeoPixelColor(int pixelIndex, const RGBColor &amp;color):&#160;Neopixel.cpp'],['../Neopixel_8cpp.html#a10f3e743c2809fcaf0be952d524aa8bc',1,'setNeoPixelColor(int pixelIndex, const RGBColor &amp;color):&#160;Neopixel.cpp']]],
+  ['setpin_6',['setPin',['../classAdafruit__NeoPixel.html#aa1898f089b9a4e02841cec2e63b88c33',1,'Adafruit_NeoPixel']]],
+  ['setpixelcolor_7',['setPixelColor',['../classAdafruit__NeoPixel.html#a19fc274330c0e65907929ee03b93b1c3',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint32_t c)'],['../classAdafruit__NeoPixel.html#ac7b3529b3d190f3af5d8e5b9ead27688',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b, uint8_t w)'],['../classAdafruit__NeoPixel.html#ab8763ccc6f9a090df1f753905fd5561e',1,'Adafruit_NeoPixel::setPixelColor(uint16_t n, uint8_t r, uint8_t g, uint8_t b)']]],
+  ['setup_8',['setup',['../test__main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;test_main.cpp'],['../main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;main.cpp']]],
+  ['show_9',['show',['../classAdafruit__NeoPixel.html#a4bcda7a15591065570d3598cbf970be7',1,'Adafruit_NeoPixel']]],
+  ['showbitmap_10',['showBitMap',['../DisplayControl_8cpp.html#a26fbf4e02c579d629f8d3359439a1d9e',1,'DisplayControl.cpp']]],
+  ['showmainmenu_11',['showMainMenu',['../Menu_8h.html#ad81a07620a47d11ef65c28bb0852c824',1,'showMainMenu(InputState &amp;inputState, UserSetting &amp;userSetting):&#160;Menu.cpp'],['../Menu_8cpp.html#ad81a07620a47d11ef65c28bb0852c824',1,'showMainMenu(InputState &amp;inputState, UserSetting &amp;userSetting):&#160;Menu.cpp']]],
+  ['showneopixel_12',['showNeoPixel',['../Neopixel_8h.html#ac9a53d2b1f6c14158a9441aa339f1a67',1,'showNeoPixel():&#160;Neopixel.cpp'],['../Neopixel_8cpp.html#ac9a53d2b1f6c14158a9441aa339f1a67',1,'showNeoPixel():&#160;Neopixel.cpp']]],
+  ['sine8_13',['sine8',['../classAdafruit__NeoPixel.html#afb00024000da81bcb6378c7052f77be3',1,'Adafruit_NeoPixel']]],
+  ['spiwrite_14',['SPIwrite',['../classAdafruit__SSD1306.html#af4b9c3a9c3e93ac9c746bb99e9c35188',1,'Adafruit_SSD1306']]],
+  ['ssd1306_5fcommand_15',['ssd1306_command',['../classAdafruit__SSD1306.html#a99182555a08549492f6c40ceea0abc3d',1,'Adafruit_SSD1306']]],
+  ['ssd1306_5fcommand1_16',['ssd1306_command1',['../classAdafruit__SSD1306.html#a018550c5b9f0463cb7cd2a74efa4ee48',1,'Adafruit_SSD1306']]],
+  ['ssd1306_5fcommandlist_17',['ssd1306_commandList',['../classAdafruit__SSD1306.html#a799f35d2b93cb7a84840a94da69259be',1,'Adafruit_SSD1306']]],
+  ['startscrolldiagleft_18',['startscrolldiagleft',['../classAdafruit__SSD1306.html#a8d5b19419f508e5133053fa39da10f98',1,'Adafruit_SSD1306']]],
+  ['startscrolldiagright_19',['startscrolldiagright',['../classAdafruit__SSD1306.html#adbc9f95bb91eb0e76c4465d3c4d941e1',1,'Adafruit_SSD1306']]],
+  ['startscrollleft_20',['startscrollleft',['../classAdafruit__SSD1306.html#a4c58c2a4ac905e199d6ced49a0098296',1,'Adafruit_SSD1306']]],
+  ['startscrollright_21',['startscrollright',['../classAdafruit__SSD1306.html#a6a9f18f43c19296dc54dfb657eab4d66',1,'Adafruit_SSD1306']]],
+  ['stopscroll_22',['stopscroll',['../classAdafruit__SSD1306.html#ab4559d6aae71a4de8969f9160a6eda40',1,'Adafruit_SSD1306']]]
 ];

@@ -1,4 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,113,31"/>
-<area shape="rect" id="node2" href="$classAdafruit__SSD1306.html" title="Class that stores state and functions for interacting with SSD1306 OLED displays." alt="" coords="161,5,300,31"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,152,56"/>
+<area shape="rect" id="node2" href="$classAdafruit__SH110X.html" title="Class that stores state and functions for interacting with SH110X OLED displays. Not instantiatable &#45;..." alt="" coords="200,31,332,56"/>
+<area shape="rect" id="node3" href="$classAdafruit__SH1106G.html" title="Class that stores state and functions for interacting with SH1106G OLED displays." alt="" coords="380,5,521,31"/>
+<area shape="rect" id="node4" href="$classAdafruit__SH1107.html" title="Class that stores state and functions for interacting with SH1107 OLED displays." alt="" coords="385,55,516,80"/>
 </map>

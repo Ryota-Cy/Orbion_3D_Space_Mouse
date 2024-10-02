@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['begin_0',['begin',['../classAdafruit__NeoPixel.html#ac1cb16509be644232ce0e28d250083da',1,'Adafruit_NeoPixel::begin()'],['../classBLESerial.html#ae0893d4c84d93e0a53f95010c0dbb665',1,'BLESerial::begin(...)'],['../classBLESerial.html#ae0893d4c84d93e0a53f95010c0dbb665',1,'BLESerial::begin(...)'],['../classAdafruit__SH1106G.html#a8c3dcfd286a325e9ef94624cb72f9477',1,'Adafruit_SH1106G::begin()'],['../classAdafruit__SH1107.html#a7602bc056fafd215f65fc8c81047ecb1',1,'Adafruit_SH1107::begin()'],['../classAdafruit__SSD1306.html#aa5457e560feed75336001927c8e0f651',1,'Adafruit_SSD1306::begin()']]],
-  ['bleserial_1',['BLESerial',['../classBLESerial.html#a4024e9e6ac2be460a0890c707460222b',1,'BLESerial::BLESerial(unsigned char req, unsigned char rdy, unsigned char rst)'],['../classBLESerial.html#a4024e9e6ac2be460a0890c707460222b',1,'BLESerial::BLESerial(unsigned char req, unsigned char rdy, unsigned char rst)']]],
-  ['buttonmode_2',['buttonMode',['../Menu_8cpp.html#a8635a3e053b1dc1d7d077351ba426897',1,'Menu.cpp']]]
+  ['canshow_0',['canShow',['../classAdafruit__NeoPixel.html#a9e900a60b0ac2b43b99309bb118b929e',1,'Adafruit_NeoPixel']]],
+  ['checkupdatevalues_1',['checkUpdateValues',['../UserSetting_8cpp.html#abbed7b3339cd40aae0c2f00d1f109aae',1,'UserSetting.cpp']]],
+  ['clear_2',['clear',['../classAdafruit__NeoPixel.html#ae259682b202be0acd258d6879f4c7121',1,'Adafruit_NeoPixel']]],
+  ['cleardisplay_3',['clearDisplay',['../classAdafruit__SSD1306.html#afe1e0f5efabd931aab7998275356744d',1,'Adafruit_SSD1306::clearDisplay()'],['../DisplayControl_8h.html#afaa5f070126ac5184a648b484e7cf276',1,'clearDisplay():&#160;DisplayControl.cpp'],['../DisplayControl_8cpp.html#afaa5f070126ac5184a648b484e7cf276',1,'clearDisplay():&#160;DisplayControl.cpp']]],
+  ['color_4',['Color',['../classAdafruit__NeoPixel.html#ae7c444138dd0e6ac1008621d0a67048b',1,'Adafruit_NeoPixel::Color(uint8_t r, uint8_t g, uint8_t b)'],['../classAdafruit__NeoPixel.html#af0c47eb0d6d9f28a4f85b8039f78060c',1,'Adafruit_NeoPixel::Color(uint8_t r, uint8_t g, uint8_t b, uint8_t w)']]],
+  ['colorhsv_5',['ColorHSV',['../classAdafruit__NeoPixel.html#a1f16aee5b96e16e62598f826e292b23b',1,'Adafruit_NeoPixel']]]
 ];

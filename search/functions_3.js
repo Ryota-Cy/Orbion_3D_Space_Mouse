@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['canshow_0',['canShow',['../classAdafruit__NeoPixel.html#a9e900a60b0ac2b43b99309bb118b929e',1,'Adafruit_NeoPixel']]],
-  ['checkupdatevalues_1',['checkUpdateValues',['../UserSetting_8cpp.html#abbed7b3339cd40aae0c2f00d1f109aae',1,'UserSetting.cpp']]],
-  ['clear_2',['clear',['../classAdafruit__NeoPixel.html#ae259682b202be0acd258d6879f4c7121',1,'Adafruit_NeoPixel']]],
-  ['cleardisplay_3',['clearDisplay',['../classAdafruit__SSD1306.html#afe1e0f5efabd931aab7998275356744d',1,'Adafruit_SSD1306::clearDisplay()'],['../DisplayControl_8h.html#afaa5f070126ac5184a648b484e7cf276',1,'clearDisplay():&#160;DisplayControl.cpp'],['../DisplayControl_8cpp.html#afaa5f070126ac5184a648b484e7cf276',1,'clearDisplay():&#160;DisplayControl.cpp']]],
-  ['close_4',['close',['../structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0',1,'structcmd.h']]],
-  ['color_5',['Color',['../classAdafruit__NeoPixel.html#ae7c444138dd0e6ac1008621d0a67048b',1,'Adafruit_NeoPixel::Color(uint8_t r, uint8_t g, uint8_t b)'],['../classAdafruit__NeoPixel.html#af0c47eb0d6d9f28a4f85b8039f78060c',1,'Adafruit_NeoPixel::Color(uint8_t r, uint8_t g, uint8_t b, uint8_t w)']]],
-  ['colorhsv_6',['ColorHSV',['../classAdafruit__NeoPixel.html#a1f16aee5b96e16e62598f826e292b23b',1,'Adafruit_NeoPixel']]],
-  ['cstyle_7',['cstyle',['../javadoc-banner_8h.html#a6ec4bf0132201719721e103451590a9e',1,'javadoc-banner.h']]]
+  ['dim_0',['dim',['../classAdafruit__SSD1306.html#a2661e6166a7a1c00695ed55eaa4ece46',1,'Adafruit_SSD1306']]],
+  ['display_1',['display',['../classAdafruit__SH110X.html#af8b0e8c8c4cbad863aa23859ea70622a',1,'Adafruit_SH110X::display()'],['../classAdafruit__SSD1306.html#a0ef45af1adca923ef66233b2998a150b',1,'Adafruit_SSD1306::display()'],['../DisplayControl_8cpp.html#ae780a76d06cb56e14435ebfe3db3f6d3',1,'display(SCREEN_WIDTH, SCREEN_HEIGHT, &amp;Wire, OLED_RESET):&#160;DisplayControl.cpp']]],
+  ['displaymessage_2',['displayMessage',['../DisplayControl_8h.html#abded29d980f494096a85c5d3f7cb0c40',1,'displayMessage(const char *message):&#160;DisplayControl.cpp'],['../DisplayControl_8cpp.html#abded29d980f494096a85c5d3f7cb0c40',1,'displayMessage(const char *message):&#160;DisplayControl.cpp']]],
+  ['drawfasthline_3',['drawFastHLine',['../classAdafruit__SSD1306.html#a8165eca9ccfee431af10b6f5fa06a406',1,'Adafruit_SSD1306']]],
+  ['drawfasthlineinternal_4',['drawFastHLineInternal',['../classAdafruit__SSD1306.html#ab487f39aa59091c06493a6985320e96b',1,'Adafruit_SSD1306']]],
+  ['drawfastvline_5',['drawFastVLine',['../classAdafruit__SSD1306.html#a2058c782206fd0c7a74a1d6d19a383b6',1,'Adafruit_SSD1306']]],
+  ['drawfastvlineinternal_6',['drawFastVLineInternal',['../classAdafruit__SSD1306.html#a961614d584f413c25581287728bbbb2c',1,'Adafruit_SSD1306']]],
+  ['drawpixel_7',['drawPixel',['../classAdafruit__SSD1306.html#ae2851d927a047a770c569c7c9fde4807',1,'Adafruit_SSD1306']]]
 ];

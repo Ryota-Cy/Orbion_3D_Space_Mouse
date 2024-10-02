@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('md_src_Firmware_lib_Adafruit_SSD1306_R
 <p>Written by Limor Fried/Ladyada for Adafruit Industries, with contributions from the open source community. Scrolling code contributed by Michael Gregg. Dynamic buffer allocation based on work by Andrew Canaday. BSD license, check license.txt for more information. All text above must be included in any redistribution</p>
 <p>Preferred installation method is to use the Arduino IDE Library Manager. To download the source from Github instead, click "Clone or download" above, then "Download ZIP." After uncompressing, rename the resulting folder <a class="el" href="classAdafruit__SSD1306.html" title="Class that stores state and functions for interacting with SSD1306 OLED displays.">Adafruit_SSD1306</a>. Check that the <a class="el" href="classAdafruit__SSD1306.html" title="Class that stores state and functions for interacting with SSD1306 OLED displays.">Adafruit_SSD1306</a> folder contains <a class="el" href="Adafruit__SSD1306_8cpp.html">Adafruit_SSD1306.cpp</a> and <a class="el" href="Adafruit__SSD1306_8h.html">Adafruit_SSD1306.h</a>.</p>
 <p>You will also have to install the <b>Adafruit GFX library</b> which provides graphics primitves such as lines, circles, text, etc. This also can be found in the Arduino Library Manager, or you can get the source from <a href="https://github.com/adafruit/Adafruit-GFX-Library">https://github.com/adafruit/Adafruit-GFX-Library</a></p>
-<h1><a class="anchor" id="autotoc_md32"></a>
+<h1><a class="anchor" id="autotoc_md15"></a>
 Changes</h1>
 <p>Pull Request: (November 2021)</p><ul>
 <li>Added define <code>SSD1306_NO_SPLASH</code> to opt-out of including splash images in <code>PROGMEM</code> and drawing to display during <code>begin</code>.</li>
@@ -114,7 +114,7 @@ Changes</h1>
 <li>SPI transactions are used and SPI bitrate can be specified (both require Arduino 1.6 or later).</li>
 <li>SPI and Wire (I2C) interfaces other than the defaults are supported.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Compatibility</h1>
 <p>MCU |Tested Works|Doesn't Work|Not Tested|Notes ---------&mdash;|:-------&mdash;:|:-------&mdash;:|:-----&mdash;:|--&mdash; Atmega328 | X | | | Atmega32u4 | X | | | Atmega2560 | X | | | ESP8266 | X | | | Change OLED_RESET to different pin if using default I2C pins D4/D5. ESP32 | X | | | ATSAM3X8E | X | | | ATSAMD21 | X | | | Intel Curie | X | | | WICED | X | | | No hardware SPI - bitbang only ATtiny85 | | X | | Particle | X | | |</p>
 <ul>

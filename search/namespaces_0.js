@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['docstring_0',['docstring',['../namespacedocstring.html',1,'']]]
+  ['make_5fsplash_0',['make_splash',['../namespacemake__splash.html',1,'']]]
 ];

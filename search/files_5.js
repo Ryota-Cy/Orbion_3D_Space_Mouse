@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['file_2eh_0',['file.h',['../file_8h.html',1,'']]],
-  ['func_2eh_1',['func.h',['../func_8h.html',1,'']]]
+  ['hidinterface_2ecpp_0',['HIDInterface.cpp',['../HIDInterface_8cpp.html',1,'']]],
+  ['hidinterface_2eh_1',['HIDInterface.h',['../HIDInterface_8h.html',1,'']]]
 ];

@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['joybutton_0',['joyButton',['../structUserSetting.html#ac73517ffe10f51bf138dbdbdf586cc85',1,'UserSetting']]],
-  ['joymode_1',['joyMode',['../structUserSetting.html#a12599e10404012dbec70082fa0a4d3ea',1,'UserSetting']]],
-  ['joymodedelay_2',['joyModeDelay',['../Menu_8cpp.html#a2dfffe4058ad31aa2ca6a0f4553723c5',1,'Menu.cpp']]],
-  ['joysens_3',['joySens',['../structUserSetting.html#ad0be5bcc6cea8adc6c51d125819777db',1,'UserSetting']]],
-  ['joysensdelay_4',['joySensDelay',['../Menu_8cpp.html#aa2164c8cf6b5066603060cf0b1a70698',1,'Menu.cpp']]],
-  ['joystick_5',['joystick',['../structInputState.html#a26ab311cc48653a6fc40fc54c90cc419',1,'InputState']]]
+  ['lastbuttonstate_0',['lastButtonState',['../structButton.html#a0eadbb26bf2055646cfe16e6ab3eedbb',1,'Button']]],
+  ['lastdebouncetime_1',['lastDebounceTime',['../structButton.html#a45889824159b10f305ef14e7e2ae927c',1,'Button']]],
+  ['lastruntime_2',['lastRunTime',['../structDelayState.html#a0d3574a1b8ef2b57288a91a9f1980685',1,'DelayState']]],
+  ['light_5fblue_3',['light_blue',['../HIDInterface_8cpp.html#af67f7f9ef1aa970470d21b0051996b51',1,'HIDInterface.cpp']]]
 ];
