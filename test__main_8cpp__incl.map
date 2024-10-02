@@ -1,10 +1,10 @@
 <map id="src/Firmware/test/test_main.cpp" name="src/Firmware/test/test_main.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="89,5,253,45"/>
-<area shape="rect" id="node2" title=" " alt="" coords="89,240,173,265"/>
-<area shape="rect" id="node3" title=" " alt="" coords="27,93,93,119"/>
-<area shape="rect" id="node4" href="$Button_8h.html" title="ボタンに関する制御を提供します。" alt="" coords="92,167,169,192"/>
-<area shape="rect" id="node5" href="$Joystick_8h.html" title="ジョイスティックの操作と状態管理を行う機能を提供します。" alt="" coords="168,93,253,119"/>
-<area shape="rect" id="node6" href="$Neopixel_8h.html" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="277,93,368,119"/>
-<area shape="rect" id="node8" title=" " alt="" coords="419,167,514,192"/>
-<area shape="rect" id="node7" href="$Adafruit__NeoPixel_8h.html" title=" " alt="" coords="245,167,395,192"/>
+<area shape="rect" id="node1" title=" " alt="" coords="87,5,251,45"/>
+<area shape="rect" id="node2" title=" " alt="" coords="87,240,171,265"/>
+<area shape="rect" id="node3" title=" " alt="" coords="26,93,91,119"/>
+<area shape="rect" id="node4" href="$Button_8h.html" title="ボタンに関する制御を提供します。" alt="" coords="91,167,168,192"/>
+<area shape="rect" id="node5" href="$Joystick_8h.html" title="ジョイスティックの操作と状態管理を行う機能を提供します。" alt="" coords="167,93,252,119"/>
+<area shape="rect" id="node6" href="$Neopixel_8h.html" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="276,93,367,119"/>
+<area shape="rect" id="node8" title=" " alt="" coords="391,93,486,119"/>
+<area shape="rect" id="node7" href="$Adafruit__NeoPixel_8h.html" title=" " alt="" coords="246,167,397,192"/>
 </map>

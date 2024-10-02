@@ -1,10 +1,14 @@
 <map id="src/Firmware/lib/Adafruit NeoPixel/Adafruit_NeoPixel.h" name="src/Firmware/lib/Adafruit NeoPixel/Adafruit_NeoPixel.h">
-<area shape="rect" id="node1" title=" " alt="" coords="445,5,659,45"/>
-<area shape="rect" id="node2" href="$Neopixel_8h.html" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="364,93,521,133"/>
-<area shape="rect" id="node8" href="$Adafruit__NeoPixel_8cpp.html" title=" " alt="" coords="546,93,777,133"/>
-<area shape="rect" id="node3" href="$HIDInterface_8h.html" title="HIDデバイスへのメッセージ送信機能を提供するインターフェースです。" alt="" coords="175,181,332,221"/>
-<area shape="rect" id="node5" href="$main_8cpp.html" title=" " alt="" coords="273,269,466,295"/>
-<area shape="rect" id="node6" href="$Neopixel_8cpp.html" title=" " alt="" coords="407,189,625,214"/>
-<area shape="rect" id="node7" href="$test__main_8cpp.html" title=" " alt="" coords="649,181,813,221"/>
-<area shape="rect" id="node4" href="$HIDInterface_8cpp.html" title=" " alt="" coords="5,269,248,295"/>
+<area shape="rect" id="node1" title=" " alt="" coords="437,5,651,45"/>
+<area shape="rect" id="node2" href="$Neopixel_8h.html" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="356,93,513,133"/>
+<area shape="rect" id="node12" href="$Adafruit__NeoPixel_8cpp.html" title=" " alt="" coords="538,93,769,133"/>
+<area shape="rect" id="node3" href="$HIDInterface_8h.html" title="HIDデバイスへのメッセージ送信機能を提供するインターフェースです。" alt="" coords="124,269,281,309"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title=" " alt="" coords="273,357,466,383"/>
+<area shape="rect" id="node6" href="$UserSetting_8h.html" title="ユーザー設定に関するデータ構造および操作を定義しています。" alt="" coords="356,181,513,221"/>
+<area shape="rect" id="node10" href="$Neopixel_8cpp.html" title=" " alt="" coords="538,189,755,214"/>
+<area shape="rect" id="node11" href="$test__main_8cpp.html" title=" " alt="" coords="779,181,943,221"/>
+<area shape="rect" id="node4" href="$HIDInterface_8cpp.html" title=" " alt="" coords="5,357,248,383"/>
+<area shape="rect" id="node7" href="$Menu_8h.html" title="メニュー表示と操作に関する機能を提供します。" alt="" coords="667,269,824,309"/>
+<area shape="rect" id="node9" href="$UserSetting_8cpp.html" title=" " alt="" coords="406,277,642,302"/>
+<area shape="rect" id="node8" href="$Menu_8cpp.html" title=" " alt="" coords="647,357,843,383"/>
 </map>

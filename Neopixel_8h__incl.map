@@ -1,5 +1,4 @@
 <map id="src/Firmware/include/Neopixel.h" name="src/Firmware/include/Neopixel.h">
-<area shape="rect" id="node1" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="75,5,233,45"/>
-<area shape="rect" id="node2" href="$Adafruit__NeoPixel_8h.html" title=" " alt="" coords="5,93,156,119"/>
-<area shape="rect" id="node3" title=" " alt="" coords="180,93,275,119"/>
+<area shape="rect" id="node1" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="5,5,163,45"/>
+<area shape="rect" id="node2" href="$Adafruit__NeoPixel_8h.html" title=" " alt="" coords="9,93,159,119"/>
 </map>

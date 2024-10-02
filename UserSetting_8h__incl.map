@@ -1,7 +1,8 @@
 <map id="src/Firmware/include/UserSetting.h" name="src/Firmware/include/UserSetting.h">
-<area shape="rect" id="node1" title="ユーザー設定に関するデータ構造および操作を定義しています。" alt="" coords="87,5,245,45"/>
+<area shape="rect" id="node1" title="ユーザー設定に関するデータ構造および操作を定義しています。" alt="" coords="86,5,243,45"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,93,95,119"/>
-<area shape="rect" id="node3" title=" " alt="" coords="119,93,213,119"/>
-<area shape="rect" id="node4" href="$Keyboard_8h.html" title=" " alt="" coords="237,93,332,119"/>
-<area shape="rect" id="node5" title=" " alt="" coords="255,167,314,192"/>
+<area shape="rect" id="node3" href="$Neopixel_8h.html" title="NeoPixel LEDの制御に関する機能を提供します。" alt="" coords="119,93,210,119"/>
+<area shape="rect" id="node5" href="$Keyboard_8h.html" title=" " alt="" coords="240,93,335,119"/>
+<area shape="rect" id="node4" href="$Adafruit__NeoPixel_8h.html" title=" " alt="" coords="85,167,236,192"/>
+<area shape="rect" id="node6" title=" " alt="" coords="261,167,319,192"/>
 </map>
